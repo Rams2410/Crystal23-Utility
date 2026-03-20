@@ -253,7 +253,7 @@ def build_extxyz_lines(
             output_lines.append(f"{n_atoms}\n")
             output_lines.append(
                 f'Lattice="{lattice_str}" '
-                f"Properties=species:S:1:pos:R:3:force:R:3:resid:I:1 "
+                f"Properties=species:S:1:pos:R:3:forces:R:3:resid:I:1 "
                 f"energy={free_en} "
                 f'pbc="{pbc}"\n'
             )
